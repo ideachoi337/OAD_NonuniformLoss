@@ -3,7 +3,7 @@
 > MiniROAD: https://github.com/jbistanbul/MiniROAD <br>
 > CMeRT: https://github.com/pangzhan27/CMeRT <br>
 
-## Training with non-uniform loss
+## Training with MiniROAD style non-uniform loss
 LSTR
 ```
 cd LSTR
@@ -26,5 +26,8 @@ python main.py --config_file configs/THUMOS/cmert_long256_work4_kinetics_1x.yaml
 MiniROAD
 ```
 cd MiniROAD
+# Uniform loss
 python main.py --config configs/miniroad_thumos_kinetics_uniform.yaml
+# Non-uniform loss
+python main.py --config configs/miniroad_thumos_kinetics.yaml
 ```
